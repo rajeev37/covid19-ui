@@ -9,10 +9,10 @@ class Header extends React.Component {
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Item>
-                <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                <Nav.Link><Link to="/sign-up">SignUp</Link></Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link><Link to="/about">About</Link></Nav.Link>
+                <Nav.Link><Link to="/sign-in">Login</Link></Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
