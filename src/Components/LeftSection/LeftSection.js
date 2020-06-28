@@ -1,12 +1,15 @@
 import React from "react";
-class LeftSection extends React.Component {
+
+import { BrowserRouter as Router, Route, Link, withRouter } from "react-router-dom";
+class LeftNav extends React.Component {
     render() {
         return (
             <section className="l-content">
-                <a href="/home" className="active">Home</a>
-                <a href="/dashboard">Dashboard</a>
+                <Link to="/home">Home</Link>
+                <Link to="/dashboard">Dashboard</Link>
             </section>
         );
     }
 }
+const LeftSection = withRouter(LeftNav);
 export default LeftSection;
