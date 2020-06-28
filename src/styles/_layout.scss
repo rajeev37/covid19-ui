@@ -1,0 +1,26 @@
+#inner-content {
+    header {
+        width: 100%;
+        padding: 30px;
+        background: #333b43;
+        color: #fff;
+    }
+    .l-content {
+        width: 25%;
+        background: #29323c;
+
+        height: 100vh;
+
+        a {
+            display: block;
+            padding: 30px 30px 30px;
+            margin-bottom: 10px;
+            color: #fff;
+            font-size: 18px;
+            border-bottom: 2px solid grey;
+        }
+    }
+    .r-content {
+        height: 100vh;
+    }
+}

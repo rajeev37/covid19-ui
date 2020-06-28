@@ -29,22 +29,22 @@ const SignUp = inject("stores")(observer(class SignUp extends React.Component {
                 <form>
                     <label for="username">I am a</label>
                     <label for="userType">
-                        <input type="radio" name="userType" value="Doctor" />
+                        <input type="radio" name="userType" value="Doctor" required/>
                         <span>Doctor</span>
                     </label>
                     <label for="userType">
-                        <input type="radio" name="userType" value="Patient" />
+                        <input type="radio" name="userType" value="Patient" required/>
                        <span>Patient</span>
                      </label>
                      <label for="contactNumber">Contact Number</label>
-                    <input type="number" name="contactNumber" />
+                    <input type="number" name="contactNumber" required />
                     
                     <label for="username">Username</label>
-                    <input type="text" name="username" />
+                    <input type="text" name="username" required/>
                     <label for="password">Password</label>
-                    <input id="password" type="password" name="password" />
+                    <input id="password" type="password" name="password" required />
                     <label for="password0">Re-Enter Password</label>
-                    <input id="password0" type="password" name="password0" />
+                    <input id="password0" type="password" name="password0" required />
                     <input type="submit" className="button" name="submit" value="Create Account" />
                 </form>
             </div>
