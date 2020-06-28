@@ -80,7 +80,12 @@ label {
     display: block;
     font-size: 14px;
 }
-
+input[type="radio"] {
+    width: 10%;
+    &:focus {
+        box-shadow: none;
+    }
+}
 input {
     width: 100%;
     color: #fff;
